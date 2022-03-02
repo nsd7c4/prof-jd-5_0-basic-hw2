@@ -12,5 +12,9 @@ public class Main {
         char charVar1 = 'R';
         boolean booleanVar1 = true;
 
+        float tomS = 78.2f;
+        float joeR = 82.7f;
+        System.out.println(tomS+joeR);
+        System.out.println(joeR-tomS);
     }
 }
