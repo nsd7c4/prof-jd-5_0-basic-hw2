@@ -54,8 +54,8 @@ public class Main {
        float annualDiffDenis = denisSalary*(indexSalary-1)*12;
        float annualDiffChristina = christinaSalary*(indexSalary-1)*12;
 
-        System.out.println("Masha's monthly salary is " + newMashaSalary + " rubles. Annual income increased by " + annualDiffMasha + "rubbles");
-        System.out.println("Denis's monthly salary is " + newDenisSalary + " rubles. Annual income increased by " + annualDiffDenis + "rubbles");
-        System.out.println("Christina's monthly salary is " + newChristinaSalary + " rubles. Annual income increased by " + annualDiffChristina + "rubbles");
+        System.out.println("Masha's new monthly salary is " + newMashaSalary + " rubles. Annual income increased by " + annualDiffMasha + "rubbles");
+        System.out.println("Denis's new monthly salary is " + newDenisSalary + " rubles. Annual income increased by " + annualDiffDenis + "rubbles");
+        System.out.println("Christina's new monthly salary is " + newChristinaSalary + " rubles. Annual income increased by " + annualDiffChristina + "rubbles");
     }
 }
