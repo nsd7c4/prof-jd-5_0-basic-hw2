@@ -36,8 +36,8 @@ public class Main {
         int maxGrammsADay = 500;
         float minDays = weighToLose*1000/(float)minGrammsADay;
         float maxDays = weighToLose*1000/(float)maxGrammsADay;
-        System.out.println("Min days to lose weight " + minDays + " days");
-        System.out.println("Max days to lose weight " + maxDays + " days");
+        System.out.println("Max days to lose weight " + minDays + " days");
+        System.out.println("Min days to lose weight " + maxDays + " days");
 
         //exercise 5
        float mashaSalary = 67760f;
