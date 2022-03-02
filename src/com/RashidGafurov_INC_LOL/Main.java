@@ -39,5 +39,23 @@ public class Main {
         System.out.println("Min days to lose weight " + minDays + " days");
         System.out.println("Max days to lose weight " + maxDays + " days");
 
+        //exercise 5
+       float mashaSalary = 67760f;
+       float denisSalary = 83690f;
+       float christinaSalary = 76230f;
+
+       float indexSalary = 1.1f;
+
+       float newMashaSalary = mashaSalary * 1.1f;
+       float newDenisSalary = denisSalary * 1.1f;
+       float newChristinaSalary = christinaSalary * 1.1f;
+
+       float annualDiffMasha = mashaSalary*(indexSalary-1)*12;
+       float annualDiffDenis = denisSalary*(indexSalary-1)*12;
+       float annualDiffChristina = christinaSalary*(indexSalary-1)*12;
+
+        System.out.println("Masha's monthly salary is " + newMashaSalary + " rubles. Annual income increased by " + annualDiffMasha + "rubbles");
+        System.out.println("Denis's monthly salary is " + newDenisSalary + " rubles. Annual income increased by " + annualDiffDenis + "rubbles");
+        System.out.println("Christina's monthly salary is " + newChristinaSalary + " rubles. Annual income increased by " + annualDiffChristina + "rubbles");
     }
 }
