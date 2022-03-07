@@ -88,7 +88,7 @@ public class Main {
         b2 = b2 / 10;
         b2 = b2 % 10;
 
-        System.out.println(a2);
-        System.out.println(b2);
+        System.out.println("Middle digit in A is " + a2);
+        System.out.println("Middle digit in B is " + b2);
     }
 }
