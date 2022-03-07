@@ -82,13 +82,11 @@ public class Main {
         int a2 = 256;
         int b2 = 789;
 
-        a2 = a2 / 10;
-        a2 = a2 % 10;
+        a2 = (a2 / 10) % 10;
 
-        b2 = b2 / 10;
-        b2 = b2 % 10;
+        b2 = (b2 / 10) % 10;
 
-        System.out.println("Middle digit in A is " + a2);
-        System.out.println("Middle digit in B is " + b2);
+        System.out.println("Middle digit in A is  " + a2);
+        System.out.println("Middle digit in B is  " + b2);
     }
 }
