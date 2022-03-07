@@ -66,5 +66,16 @@ public class Main {
         int e = 9;
         int result = a * (b + (c - d * e));
         System.out.println("Inverted result of equation is " + (-1)*result);
+
+        //exercise 7
+        int a1 = 5;
+        int b1 = 7;
+
+        a1 = a1 - b1;
+        b1 = a1 + b1;
+        a1 = b1 - a1;
+
+        System.out.println("A = " + a1);
+        System.out.println("B = " + b1);
     }
 }
